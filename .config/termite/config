@@ -6,7 +6,8 @@
 #cell_width_scale = 1.0
 #clickable_url = true
 #dynamic_title = true
-font = DejaVu Sans Mono 10
+font = Source Code Pro 10
+#font = DejaVu Sans Mono 10
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -41,44 +42,45 @@ scrollback_lines = 10000
 #scrollbar = off
 
 [colors]
+background = rgba(63, 63, 63, 0.8)
 
 # special
-foreground      = #d2c5bc
-foreground_bold = #d2c5bc
-cursor          = #d2c5bc
-background      = #101010
+foreground      = #b7b8b9
+foreground_bold = #b7b8b9
+cursor          = #b7b8b9
+#background      = #0c0d0e
 
 # black
-color0  = #202020
-color8  = #606060
+color0  = #0c0d0e
+color8  = #737475
 
 # red
-color1  = #b91e2e
-color9  = #d14548
+color1  = #e31a1c
+color9  = #e31a1c
 
 # green
-color2  = #81957c
-color10 = #a7b79a
+color2  = #31a354
+color10 = #31a354
 
 # yellow
-color3  = #f9bb80
-color11 = #fae3a0
+color3  = #dca060
+color11 = #dca060
 
 # blue
-color4  = #356579
-color12 = #7491a1
+color4  = #3182bd
+color12 = #3182bd
 
 # magenta
-color5  = #2d2031
-color13 = #87314e
+color5  = #756bb1
+color13 = #756bb1
 
 # cyan
-color6  = #0b3452
-color14 = #0f829d
+color6  = #80b1d3
+color14 = #80b1d3
 
 # white
-color7  = #909090
-color15 = #fff0f0
+color7  = #b7b8b9
+color15 = #fcfdfe
 
 [hints]
 #font = Monospace 12
