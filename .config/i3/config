@@ -34,6 +34,10 @@ floating_modifier $mod
 bindsym $mod+Return exec termite
 #bindsym $mod+Return exec i3-sensible-terminal
 
+# start a terminal with gotop at start on workspace 2
+exec --no-startup-id termite --name gotop_inst -e gotop
+assign [instance="gotop_inst"] 2
+
 # start Steam
 bindsym $mod+g exec steam
 
@@ -190,8 +194,9 @@ bar {
 	font pango:monospace 10, FontAwesome 10
 }
 
-# start Factorio on workspace 10
+# start Factorio and Terraria on workspace 10
 assign [class="factorio"] 10
+assign [class="Terraria"] 10
 
 # turn on workspace back and forth option
 workspace_auto_back_and_forth yes
