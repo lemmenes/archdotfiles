@@ -40,6 +40,8 @@ assign [instance="gotop_inst"] 2
 
 # start Steam
 bindsym $mod+g exec steam
+exec --no-startup-id steam
+assign [class="steam"] 1
 
 # start firefox
 bindsym $mod+x exec firefox
@@ -189,7 +191,7 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-	output primary
+#	output primary
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	font pango:monospace 10, FontAwesome 10
 }
