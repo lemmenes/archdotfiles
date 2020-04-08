@@ -200,12 +200,14 @@ bar {
 assign [class="factorio"] 10
 assign [class="Terraria"] 10
 
-# turn on workspace back and forth option
+# set various apperance options
 workspace_auto_back_and_forth yes
-
-for_window [class="Yad"] floating enable
-exec --no-startup-id redshift -l 33.83:-118.28
 hide_edge_borders smart
+for_window [class="Yad"] floating enable
+
+# start up various utilities
+exec --no-startup-id redshift -l 33.83:-118.28
 exec --no-startup-id compton -b
+exec --no-startup-id dunst
 
 default_border pixel 1
